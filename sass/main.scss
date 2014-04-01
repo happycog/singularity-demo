@@ -1,0 +1,15 @@
+@import "compass";
+
+@import "normalize";
+@import "html5bp";
+@import "helpers";
+
+* {
+  @include box-sizing(border-box);
+}
+
+.page-wrap {
+  margin: 0 auto;
+  padding: 2em;
+  max-width: 68.75em;
+}
